@@ -4,7 +4,7 @@
 pragma solidity ^0.8.4;
 
 // 导入ERC20接口
-import "./IERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 // ERC20合约定义
 contract ERC20 is IERC20 {
